@@ -4,13 +4,19 @@
 	
 	text-decoration: none;
 }
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
 
 
 header{
 	
-	width: 100%;
 	height: 100vh;
-	background: url(img/background.png);
+	display: flex;
+	flex-direction: column;
+	gap: 150px;
+	padding-left: 20px;
+	background: url(img/Rectangle\ 10.png);
 	background-size: cover;
 	background-repeat: no-repeat;	
 	color: white;
@@ -19,9 +25,9 @@ header{
 
 .navbar{
 	display: flex;
-	align-items: center;
-	/* justify-content:space-between; */
-	margin-bottom: 100px;
+    gap: 50px;
+	margin-top: 10px;
+	margin-left:10px;
 	
 }
 .navbar a{
@@ -32,6 +38,7 @@ header{
 	border-radius: 4px;
 	transition: ease .40s;
 	margin-left: 15px;
+	font-weight: bold;
 	
 }
 .navbar a:hover{
@@ -55,6 +62,9 @@ color:#E9BD8C;
 }
 .navbar1{
 	font-size: 22px;
+	padding-top: 20px;
+
+
 	
 }
 .home-btn a{
@@ -69,9 +79,11 @@ color:#E9BD8C;
 
 }
 .homep{
+
 	background: url(img/ab.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-bottom: 10px;
 } 
 .homep h1{
 	font-family: 'Sansita Swashed', Semi Bold;
@@ -94,9 +106,10 @@ color:#E9BD8C;
 	background-color: #933C24;
 	font-size: 16px;
 	padding: 15px 25px;
-	margin-left:30rem;
+	margin-left:40rem;
 	margin-right: 30rem;
 	border-radius: 25px;
+	width: 120px;
 	color:white;
 	display: flex;
 	justify-content: center;
@@ -169,7 +182,6 @@ color:#E9BD8C;
 }
 
 .listT1 p{
-	margin-left: 20px;
 	font-family: 'Poppins', Medium;
 	font-size: 16px;
 }
@@ -188,7 +200,6 @@ color:#E9BD8C;
 	font-size: 16px;
 }
 .listT2 p{
-	margin-left: 20px;
 	font-family: 'Poppins', Medium;
 	font-size: 16px;
 }
@@ -223,7 +234,7 @@ color:#E9BD8C;
 	right: 60px;
 	left: 65px;
     background-color:#E9BD8C;
-	width: 1117px;
+	width: 1220px;
 	height: 2px;
 }
 #about-nav{
@@ -231,15 +242,127 @@ color:#E9BD8C;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-.about-nav1{
-	margin-left: 240px;
-}
-.about-for{
-	width: 100%;
-	height: 100vh;
-	background: url(img/CROISSANT.png);
-	background-size: cover;
-	background-repeat: no-repeat;
 	margin-bottom: 40px;
+
+}
+
+.about-text{
+	background-image:url(img/CROISSANT.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:30rem;
+}
+.about-text h1{
+	font-family: 'Sansita Swashed',Semi Bold;
+	font-size: 64px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+.Menu-text h1{
+	font-family: 'Sansita Swashed',Semi Bold;
+	font-size: 64px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+.about-us{
+	background-image:url(img/Group.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:55rem;
+	margin-top: 310px;
+}
+
+.about-us h2{
+	font-family: 'Sansita Swashed',Semi Bold;
+	font-size: 45px;
+	display: flex;
+	justify-content: center;
+
+}
+.about-us p{
+	font-family: 'Poppins',Italic;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	
+}
+.formconte{
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+.formconte input{
+	background-color: rgb(223, 223, 223);
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	height: 50px;
+	width: 30rem;
+	border: none;
+	border-radius: 10px 10px;
+	display: flex;
+	justify-content: center;
+}
+.formconte textarea{
+	
+		width: 100%;
+		height: 150px;
+		padding: 12px 20px;
+		box-sizing: border-box;
+		border: 2px solid #ccc;
+		border-radius: 4px;
+		background-color: #f8f8f8;
+		resize: none;
+}
+.formconte input[type=button], input[type=submit], input[type=reset] {
+	background-color:#E9BD8C;
+	border: none;
+	border-radius:25px 25px;
+	color: black;
+	padding: 15px 15px;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 13px;
+	display: inline-block;
+	font-size: 16px;
+
+  }
+
+
+	
+	
+	
+.cont h2{
+	font-family: 'Sansita Swashed',Semi Bold;
+	font-size: 64px;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
+}
+.cont p{
+	font-family: 'Poppins',Semi Bold;
+	font-size: 40px;
+	line-height: 30px;
+	display: flex;
+	justify-content: center;
+}
+.end-text{
+	text-align: center;
+	padding-top: 90px;
+}
+.end-text p{
+	color: var(--bg-color);
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+.menu-p a{
+	display;
+	justify-content: center;
+
 }
